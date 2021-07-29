@@ -20,17 +20,22 @@
     <meta name="keywords" content="hexo,hexo-theme,hexo-blog">
     
     <meta name="description" content="">
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://abigsnail.github.io/index.html">
+    <meta name="description" content="正整数A+B 题的目标很简单，就是求两个正整数A和B的和，其中A和B都在区间[1,1000]。稍微有点麻烦的是，输入并不保证是两个正整数。 输入格式： 输入在一行给出A和B，其间以空格分开。问题是A和B不一定是满足要求的正整数，有时候可能是超出范围的数字、负数、带小数点的实数、甚至是一堆乱码。 注意：我们把输入中出现的第1个空格认为是A和B的分隔。题目保证至少存在一个空格，并且B不是一个空字符串">
+<meta property="og:type" content="article">
+<meta property="og:title" content="正整数A+B">
+<meta property="og:url" content="https://abigsnail.github.io/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="正整数A+B 题的目标很简单，就是求两个正整数A和B的和，其中A和B都在区间[1,1000]。稍微有点麻烦的是，输入并不保证是两个正整数。 输入格式： 输入在一行给出A和B，其间以空格分开。问题是A和B不一定是满足要求的正整数，有时候可能是超出范围的数字、负数、带小数点的实数、甚至是一堆乱码。 注意：我们把输入中出现的第1个空格认为是A和B的分隔。题目保证至少存在一个空格，并且B不是一个空字符串">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-02-20T14:34:34.977Z">
+<meta property="article:modified_time" content="2020-02-21T06:31:48.834Z">
 <meta property="article:author" content="Susan">
+<meta property="article:tag" content="question types of ACM">
 <meta name="twitter:card" content="summary">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     
-    <title>fi3ework&#39;s Studio</title>
+    <title>正整数A+B · fi3ework&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -85,6 +90,8 @@
 
     <link rel="preload" href= "/css/style.css?v=20210204" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <link rel="stylesheet" href= "/css/mobile.css?v=20210204" media="(max-width: 980px)">
+    
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     
     <!-- /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
 /* This file is meant as a standalone workflow for
@@ -210,10 +217,10 @@
 <meta name="generator" content="Hexo 5.4.0"></head>
 
     
-        <body class="home-body">
+        <body class="post-body">
     
     
-<header class="header index-header">
+<header class="header">
 
     <!-- top read progress line -->
     <div class="header-element">
@@ -235,9 +242,20 @@
     <a class="home-link header-element" href=/>fi3ework's Studio.</a>
     <!-- toggle banner for post layout -->
     
+    
+    <div class="banner">
+    
+        <div class="blog-title header-element">
+            <a href="/" >fi3ework&#39;s Studio.</a>
+        </div>
+        <div class="post-title header-element">
+            <a href="#" class="post-name">正整数A+B</a>
+        </div>
+    </div>
+    
 </header>
     
-<footer class="footer-fixed index-footer-fixed">
+<footer class="footer-fixed">
 
     <!-- back to top button -->
     <div class="footer-fixed-element">
@@ -265,17 +283,17 @@ height:50vh;
     <!-- 主页  -->
     
     
-    <!-- 文章页  -->
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/intro/index-bg.jpg)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
             
-            fi3ework's Studio.
-            <!-- 文章页  -->
+            正整数A+B
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
@@ -283,12 +301,49 @@ height:50vh;
             <!-- 主页副标题  -->
             
             
-                it's better to burn out than to fade away
-            
-            <!-- 文章页  -->
+            <!-- 404 -->
             
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class= post-intro-tags >
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags = "question types of ACM">question types of ACM</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>Word count: <span class="post-count word-count">669</span>Reading time: <span class="post-count reading-time">3 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2020/02/20</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -389,406 +444,77 @@ height:50vh;
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2021/07/29/jQuery/" >
-            
-                <span>数据结构笔记</span>
-        </a>
-        <div class="abstract-content">
-            刚结束了一段恋情，开始正式投入学习了。本次笔记记录为齐鲁软件大赛的前期学习过程。7.29早晨背了英语单词，掀开了落灰的电子琴，在B站找到了适合幼稚园小朋友的教程从识谱开始学起，跳了500次单摇。中午在安慰情绪。下午心神不定，刷B站，看知乎，流泪。晚上和妈妈出去跑步，给故友打了通电话。初恋是陪伴，这也是我寻求另一半的最低要求。完成了p1-p9的jQuery入门视频。在等8.7号考科三，在等一个新的自己，今天完。。。。。。
+            <main class="main post-page">
+    <article class="article-entry">
+        <blockquote>
+<p>正整数A+B<br> 题的目标很简单，就是求两个正整数A和B的和，其中A和B都在区间[1,1000]。稍微有点麻烦的是，输入并不保证是两个正整数。<br> 输入格式：<br> 输入在一行给出A和B，其间以空格分开。问题是A和B不一定是满足要求的正整数，有时候可能是超出范围的数字、负数、带小数点的实数、甚至是一堆乱码。<br> 注意：我们把输入中出现的第1个空格认为是A和B的分隔。题目保证至少存在一个空格，并且B不是一个空字符串。<br> 输出格式：<br> 如果输入的确是两个正整数，则按格式A + B = 和输出。如果某个输入不合要求，则在相应位置输出?，显然此时和也是?。</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*//下面是错误思路,只对了设标志这一点 </span></span><br><span class="line"><span class="comment"> #include&lt;iostream&gt;</span></span><br><span class="line"><span class="comment">using namespace std;</span></span><br><span class="line"><span class="comment">int main()</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">	int a,b;</span></span><br><span class="line"><span class="comment">	int flag1=0,flag2=0;</span></span><br><span class="line"><span class="comment">	cin&gt;&gt;a;//cin&gt;&gt;的返回值为cin(非0） </span></span><br><span class="line"><span class="comment">	if(cin)flag1=1;//该语句是正确的 </span></span><br><span class="line"><span class="comment">	cin&gt;&gt;b;//该语句中cin&gt;&gt;读取受第一次cin&gt;&gt;的影响，第一次若能正常读取，本次也可，第一次若不能正常读取 ，则本次也不能。 </span></span><br><span class="line"><span class="comment">	if(cin)flag2=1;</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment">	if(flag1&amp;&amp;flag2)</span></span><br><span class="line"><span class="comment">		printf(&quot;%d + %d = %d&quot;,a,b,a+b);</span></span><br><span class="line"><span class="comment">	else</span></span><br><span class="line"><span class="comment">		if(flag1)</span></span><br><span class="line"><span class="comment">			printf(&quot;%d + ? = ?&quot;,a);</span></span><br><span class="line"><span class="comment">		else</span></span><br><span class="line"><span class="comment">			if(flag2)</span></span><br><span class="line"><span class="comment">				printf(&quot;? + %d = ?&quot;,b);</span></span><br><span class="line"><span class="comment">			else</span></span><br><span class="line"><span class="comment">				printf(&quot;%d + %d = %d&quot;);</span></span><br><span class="line"><span class="comment">	</span></span><br><span class="line"><span class="comment">&#125;*/</span> </span><br><span class="line"><span class="comment">//参考了一下别人写的代码如下：</span></span><br><span class="line"><span class="comment">//总结:主要是单个字符访问C++ strings不会用，有关吸收空格的函数不熟练 </span></span><br><span class="line"><span class="comment">//对C++输入流对象cin的详细介绍：&lt;https://www.cnblogs.com/jainszhang/p/10654562.html&gt;</span></span><br><span class="line"><span class="comment">//缓冲区：&lt;https://blog.csdn.net/qq_35981069/article/details/79448454 &gt;</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">trans</span><span class="params">(string a)</span> <span class="comment">//判断a,b是否为题目范围内的正整数 </span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> t=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;a.<span class="built_in">length</span>();i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span>(a[i]&lt;<span class="string">&#x27;0&#x27;</span>||a[i]&gt;<span class="string">&#x27;9&#x27;</span>)</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;a.<span class="built_in">length</span>();i++)</span><br><span class="line">	&#123;</span><br><span class="line">		t=t*<span class="number">10</span>+a[i]-<span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(t&gt;<span class="number">1000</span>||t&lt;=<span class="number">0</span>)</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">number</span><span class="params">(string a)</span></span></span><br><span class="line"><span class="function"></span>&#123;	</span><br><span class="line">	<span class="keyword">int</span> t=<span class="number">0</span>;</span><br><span class="line"> </span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;a.<span class="built_in">length</span>();i++)</span><br><span class="line">	&#123;</span><br><span class="line">		t=t*<span class="number">10</span>+a[i]-<span class="string">&#x27;0&#x27;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> t;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	string a,b;</span><br><span class="line">	<span class="keyword">int</span> flag1=<span class="number">1</span>,flag2=<span class="number">1</span>; </span><br><span class="line">	<span class="keyword">int</span> x,y;</span><br><span class="line">	cin&gt;&gt;a;</span><br><span class="line">	<span class="built_in">getchar</span>();</span><br><span class="line">	<span class="built_in">getline</span>(cin,b);<span class="comment">//b中可能含有空格</span></span><br><span class="line">	flag1=<span class="built_in">trans</span>(a);</span><br><span class="line">	flag2=<span class="built_in">trans</span>(b);</span><br><span class="line">	<span class="keyword">if</span>(flag1&amp;&amp;flag2)</span><br><span class="line">	&#123;		</span><br><span class="line">			x=<span class="built_in">number</span>(a);</span><br><span class="line">			y=<span class="built_in">number</span>(b);</span><br><span class="line">			<span class="built_in">printf</span>(<span class="string">&quot;%d + %d = %d&quot;</span>,x,y,x+y); </span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(flag1&amp;&amp;!flag2)</span><br><span class="line">	&#123;</span><br><span class="line">		x=<span class="built_in">number</span>(a);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;%d + ? = ?&quot;</span>,x);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(flag2&amp;&amp;!flag1)&#123;</span><br><span class="line">		y=<span class="built_in">number</span>(b);</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;? + %d = ?&quot;</span>,y);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(!flag1&amp;&amp;!flag2)</span><br><span class="line">		<span class="built_in">printf</span>(<span class="string">&quot;? + ? = ?&quot;</span>);</span><br><span class="line">	 </span><br><span class="line"> &#125; </span><br></pre></td></tr></table></figure>
 
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2021/07/29</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "前端学习">前端学习</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/08/07/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%94%E8%AE%B0/" >
-            
-                <span>数据结构笔记</span>
-        </a>
-        <div class="abstract-content">
-            数据结构与算法分析
-教材：数据结构与算法分析——C语言描述
 
-最大子序列和问题的解1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253#include&lt;stdio.h&gt;int fun1(int a[])&#123;	int i,j,k;	int maxsum=0,sum;	for(i=0;i&lt;4;i++)&#123;		for(j=i;j&lt;4;j++)&#123; 		    sum=0;			for(k=i;k&lt;=j...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/08/07</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "数据结构">数据结构</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/04/07/C++%E4%B8%8E%E9%93%BE%E8%A1%A8%E7%9A%84%E6%B7%B7%E7%94%A8/" >
-            
-                <span>简单链表</span>
-        </a>
-        <div class="abstract-content">
-            123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960#include&lt;iostream&gt;#include&lt;cstdlib&gt;#include&lt;cstdio&gt;#include&lt;fstream&gt;using namespace std;struct stu_node&#123;	int  num;	float score;	struct stu_node *next;&#125;;...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/04/07</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "C++">C++</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/14/%E5%90%91%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E6%8F%92%E5%85%A5/" >
-            
-                <span>向数字中有序插入数组</span>
-        </a>
-        <div class="abstract-content">
-            向数字中有序插入数组
-123456789101112131415161718192021222324252627282930313233343536373839404142434445464748#include&lt;iostream&gt;using namespace std;//const int MAX=5;bool insert(int array[],int&amp; num_else,int array_size,int new_number)&#123;	int pos=0;	if(num_else==array_size) return false;	if(num_e...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/14</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "C++">C++</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/04/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D/" >
-            
-                <span>type of date</span>
-        </a>
-        <div class="abstract-content">
-            对数据类类型的补充
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/04</span>
-            </div>
-            <!-- tags  -->
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/01/multiple/" >
-            
-                <span>Multiple inheritance</span>
-        </a>
-        <div class="abstract-content">
-            多重继承
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/01</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "C++">C++</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/02/27/%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/" >
-            
-                <span>级数求和</span>
-        </a>
-        <div class="abstract-content">
-            已知：Sn = 1 ＋ 1／2 ＋ 1／3 ＋ … ＋ 1／n。显然对于任意一个整数K，当n足够大的时候，Sn大于K。现给出一个整数K（1 &lt;= K &lt;= 15），要求计算出一个最小的n，使得Sn &gt; K。
-1234567891011121314151617181920#include&lt;stdio.h&gt;int main()&#123;	int k,n,i;	double sum=0;	scanf(&quot;%d&quot;,&amp;k);	for(i=1 ; ;i++)	&#123;		sum+=(double)1/i;			if(sum&gt;k)		...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/02/27</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "question types of ACM">question types of ACM</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/" >
-            
-                <span>正整数A+B</span>
-        </a>
-        <div class="abstract-content">
-            
-正整数A+B 题的目标很简单，就是求两个正整数A和B的和，其中A和B都在区间[1,1000]。稍微有点麻烦的是，输入并不保证是两个正整数。 输入格式： 输入在一行给出A和B，其间以空格分开。问题是A和B不一定是满足要求的正整数，有时候可能是超出范围的数字、负数、带小数点的实数、甚至是一堆乱码。 注意：我们把输入中出现的第1个空格认为是A和B的分隔。题目保证至少存在一个空格，并且B不是一个空字符串。 输出格式： 如果输入的确是两个正整数，则按格式A + B = 和输出。如果某个输入不合要求，则在相应位置输出?，显然此时和也是?。
 
-1234567891011121314151617181...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/02/20</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "question types of ACM">question types of ACM</a>
-    
-</div>
-            
-        </div>
+
+
+
+
+
+
+
+
+
     </article>
+    <!-- license  -->
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/02/15/python/" >
-            
-                <span>notes of python</span>
-        </a>
-        <div class="abstract-content">
-            update
+        <div class="license-wrapper">
+            <p>Author：<a href="https://AbigSnail.github.io">Susan</a>
+            <p>原文链接：<a href="https://abigsnail.github.io/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/">https://abigsnail.github.io/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/</a>
+            <p>发表日期：<a href="https://abigsnail.github.io/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/">February 20th 2020, 10:34:34 pm</a>
+            <p>更新日期：<a href="https://abigsnail.github.io/2020/02/20/%E6%AD%A3%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0/">February 21st 2020, 2:31:48 pm</a>
+            <p>版权声明：</p>
         </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/02/15</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "python">python</a>
-    
-</div>
-            
-        </div>
-    </article>
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href = "/2020/02/08/%E9%87%8D%E8%BD%BD%E6%9E%84%E9%80%A0/" >
-            
-                <span>C++重载构造函数</span>
-        </a>
-        <div class="abstract-content">
-            细节问题
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/02/08</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class= abstract-tags >
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags = "base of C++">base of C++</a>
-    
-</div>
-            
-        </div>
-    </article>
     
     <!-- paginator  -->
-    
-    <nav class="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">NEXT &gt;</a>
-    </nav>
-    
-</main>
-            <!-- profile -->
+    <ul class="post-paginator">
+        <li class="next">
             
-            <div class="profile">
-    <img class="profile-avatar" alt="avatar" src= /avatar/Misaka.jpg >
-    <div class="profile-name">Susan</div>
-    
-    <div class="profile-signature">
-        witness me
-    </div>
-    
-    
-    <div class="profile-social">
-        
-    
-        
+                <div class="nextSlogan">Next Post</div>
+                <a href= "/2020/02/27/%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/" title= "级数求和">
+                    <div class="nextTitle">级数求和</div>
+                </a>
             
-                <a href="mailto:2761100147@qq.com" class="iconfont-archer email" title=email ></a>
+        </li>
+        <li class="previous">
             
-        
-    
-        
+                <div class="prevSlogan">Previous Post</div>
+                <a href= "/2020/02/15/python/" title= "notes of python">
+                    <div class="prevTitle">notes of python</div>
+                </a>
             
-                <a href="//github.com/AbigSnail" class="iconfont-archer github" target="_blank" title=github></a>
-            
-        
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
-        
-            
-                <span class="iconfont-archer wechat" title=wechat>
-                    
-                    <img class="profile-qr" src="/assets/example_qr.png" />
-                </span>
-            
-        
     
-        
+     
+    <!-- utteranc评论 -->
+
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
     
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
     
 
-    </div>
+    <!-- 评论 -->
+
+    <!-- idea from: https://hexo.fluid-dev.com/posts/hexo-injector/#%E6%96%87%E7%AB%A0%E6%97%B6%E6%95%88%E6%80%A7%E6%8F%90%E7%A4%BA -->
     
-    
-        <div class="friends">
-            <div>FRIENDS</div>
-            
-                
-                    <span>
-                        <a href= //www.baidu.com target="_black">friendA</a>
-                    </span>
-                
-            
-                
-                    <span>
-                        <a href= //www.google.com target="_black">friendB</a>
-                    </span>
-                
-            
-                
-            
-        </div>
-    
-    
-        <div class="about-me">
-            <a href = "/about" >ABOUT ME</a>
-        </div>
-    
-</div>
+</main>
+
+            <!-- profile -->
             
         </div>
         <footer class="footer footer-unloaded">
@@ -873,6 +599,24 @@ height:50vh;
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        
+    </div>
     
     <div class="sidebar sidebar-hide">
     <ul class="sidebar-tabs sidebar-tabs-active-0">
@@ -1249,6 +993,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
